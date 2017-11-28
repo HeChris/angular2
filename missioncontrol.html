@@ -1,0 +1,9 @@
+<h2>Mission Control</h2>
+<button (click)="generateshoppingcart()">Announce mission</button>
+<div>
+  <app-chird></app-chird>
+</div>
+<h3>History</h3>
+<ul>
+  <li *ngFor="let event of history">{{event}}</li>
+</ul>

@@ -1,0 +1,2 @@
+1.Angular router：
+  1.1 根模块中使用 forRoot()，子模块中使用 forChild()
